@@ -1,0 +1,26 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# macOS artifacts
+.DS_Store
+__MACOSX/
+._*
+
+# Unnecessary big source exports and lock files
+*.xlsx
+~$*
+
+# Generated outputs (recreated by running the notebook)
+outputs/
+
+# Local configuration and archives
+.env
+.env.*
+!.env.example
+*.zip
